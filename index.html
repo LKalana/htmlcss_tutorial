@@ -2,10 +2,42 @@
 <html>
   <head>
     <title>hello Webpage</title>
-    <h1><em>Hello Header</em></h1>
   </head>
   <body>
-    <label for="link"></label>
-    <a href="http://127.0.0.1:5500/htmlcss_tutorial/basicsyntax.html" id="link">Check for basics</a>
+   
+   <h1>HTML Forms</h1>
+    <!--Let's use HTML forms-->
+  <form>
+    <!--Using iputs and labels-->
+    <label for="username">Enter username:</label>
+    <input type="text" id="username" name="username" placeholder="Name here ->">
+    <br><br>
+    <label for="email">Enter email:</label>
+    <input type="email" name="email" id="email" placeholder="Email here ->">
+    <br><br>
+    <label for="password">Enter password:</label>
+    <input type="password" name="password" id="password" placeholder="Password here ->">
+    <br><br>
+    <!--Using radio buttons-->
+    <p>Select your gender</p>
+    <input type="radio" name="gender" value="male">male<br>
+    <input type="radio" name="gender" value="female">female<br>
+    <br><br>
+
+    <label for="question">Security Question:</label>
+    <select name="question" id="question">
+      <option value="q1">What colour are your favourite pair of socks?</option>
+      <option value="q2">If you could be a vegitable, What it could be?</option>
+      <option value="q3">What is your best security question?</option>
+    </select>
+      <br><br>
+      <label for="answer">Security question answer:</label>
+      <input type="text" id="answer" placeholder="Answer here ->">
+      <br><br>
+      <label for="bio">Enter bio:</label><br>
+      <textarea name="bio" id="bio" cols="30" rows="10" placeholder="about you.."></textarea>
+
+  </form>
+
   </body>
 </html>
