@@ -1,6 +1,13 @@
+
 h1{
-  color: aquamarine;
+  color: orange;
+  background-color: gray;
+  text-align-last: center;
+}
+body{
+  background-color: lightgrey;
 }
 p{
   color: brown;
 }
+
