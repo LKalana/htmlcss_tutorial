@@ -10,18 +10,18 @@
   <form>
     <!--Using iputs and labels-->
     <label for="username">Enter username:</label>
-    <input type="text" id="username" name="username" placeholder="Name here ->">
+    <input type="text" id="username" name="username" placeholder="Name here ->" required>
     <br><br>
     <label for="email">Enter email:</label>
-    <input type="email" name="email" id="email" placeholder="Email here ->">
+    <input type="email" name="email" id="email" placeholder="Email here ->" required>
     <br><br>
     <label for="password">Enter password:</label>
-    <input type="password" name="password" id="password" placeholder="Password here ->">
+    <input type="password" name="password" id="password" placeholder="Password here ->" required>
     <br><br>
     <!--Using radio buttons-->
     <p>Select your gender</p>
-    <input type="radio" name="gender" value="male">male<br>
-    <input type="radio" name="gender" value="female">female<br>
+    <input type="radio" name="gender" value="male" required>male<br>
+    <input type="radio" name="gender" value="female" required>female<br>
     <br><br>
 
     <label for="question">Security Question:</label>
@@ -36,8 +36,9 @@
       <br><br>
       <label for="bio">Enter bio:</label><br>
       <textarea name="bio" id="bio" cols="30" rows="10" placeholder="about you.."></textarea>
+      <br><br>
+      <input type="submit" id="submit" value="Submit the details" name="submit">
 
   </form>
-
   </body>
 </html>
