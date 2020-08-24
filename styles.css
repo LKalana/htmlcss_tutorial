@@ -8,7 +8,12 @@ body{
   background-color: lightgrey;
 }
 p{
-  color: brown;
+  color:black;
 }
-
+textarea{
+  background-color: black;
+  color: lightcyan;
+  font-family: 'Courier New', Courier, monospace;
+  font-style : italic;
+}
 
