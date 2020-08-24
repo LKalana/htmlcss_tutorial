@@ -1,4 +1,7 @@
 
+/* This CSS file linked with Index.html */
+
+/* Normal tags */
 h1{
   color: orange;
   background-color: gray;
@@ -7,13 +10,40 @@ h1{
 body{
   background-color: lightgrey;
 }
-p{
-  color:black;
+/* Using Classes */
+.gender{
+  display: inline;
+  color:green;
+  border: dashed darkred;
 }
 textarea{
-  background-color: black;
+  background-color: lightpink;
   color: lightcyan;
   font-family: 'Courier New', Courier, monospace;
   font-style : italic;
 }
-
+.header{
+  border: 1px dashed darkolivegreen;
+  display: inline;
+}
+.division_a{
+  display: inline-block;
+  border: 1px dotted dodgerblue;
+}
+/* Using id tags */
+#username{
+  border: 1px dashed darkgreen;
+}
+#email{
+  border: 1px dashed darkgreen;
+}
+#password{
+  border: 1px dashed darkgreen;
+}
+#answer{
+  border: dashed darkmagenta ;
+}
+#div{
+  border: dashed darkmagenta;
+  padding: 10px;
+}

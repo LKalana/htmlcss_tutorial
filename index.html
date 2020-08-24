@@ -7,23 +7,29 @@
   </head>
   <body>
    <h1>HTML Forms</h1>
-   <h4>Please go through the submit the related data</h4>
+   <h4 class="header">Please go through the submit the related data</h4>
+   <br><br>
     <!--Let's use HTML forms-->
   <form>
     <!--Using iputs and labels-->
-    <label for="username" style="color: navy;">Enter username:</label>
+    <div id="div">
+    <label class="label" for="username" style="color: navy;">Enter username:</label>
     <input type="text" id="username" name="username" placeholder="Name here ->" required>
     <br><br>
-    <label for="email" style="color: navy;">Enter email:</label>
+    <label class="emaillabel" for="email" style="color: navy;">Enter email:</label>
     <input type="email" name="email" id="email" placeholder="Email here ->" required>
     <br><br>
     <label for="password" style="color: navy;">Enter password:</label>
     <input type="password" name="password" id="password" placeholder="Password here ->" required>
+    </div>
     <br><br>
     <!--Using radio buttons-->
-    <p>Select your gender</p>
+    <p class="gender">Select your gender</p>
+    <br><br>
+    <div class="division_a">
     <input type="radio" name="gender" value="male" required>male<br>
     <input type="radio" name="gender" value="female" required>female<br>
+    </div>
     <br><br>
     <label for="question" style="color: navy;">Security Question:</label>
     <select name="question" id="question">
