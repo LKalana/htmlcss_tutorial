@@ -47,3 +47,10 @@ textarea{
   border: dashed darkmagenta;
   padding: 10px;
 }
+a[href*="google"]{
+  background-color: darkmagenta;
+  color: lightseagreen;
+}
+#submit{
+  background-color: lime;
+}

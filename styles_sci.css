@@ -1,0 +1,53 @@
+#head{
+  color: black;
+  text-align: center;
+  font-size: 50px;
+  padding: 20px darkgrey;
+  background-color: lavender;
+  border: 5px dashed darkgrey;
+}
+body{
+  background-color: black;
+}
+#nasa{
+  background-color: lightslategrey;
+}
+#spacex{
+  background-color: lightslategrey;
+}
+a[href*="www.nasa.gov"]{
+  color: gold;
+  margin: 10px;
+  display: block-inline;
+  text-align: center;
+  text-decoration: none;
+}
+a[href*="www.spacex.com"]{
+  color: gold;
+  margin: 10px;
+  display: block-inline;
+  text-align: center;
+  text-decoration: none;
+}
+a[href*="www.wikipedia.org"]{
+  color: gold;
+  margin: 10px;
+  display: block-inline;
+  text-align: center;
+  text-decoration: none;
+}
+a[href*="www.google.com"]{
+  color: gold;
+  margin: 10px;
+  display: block-inline;
+  text-align: center;
+  text-decoration: none;
+}
+div{
+  background-color: lightslategrey;
+  display: block-inline;
+  margin: 10px;
+  padding: 10px;
+  text-align: center;
+}
+
